@@ -1,6 +1,6 @@
 ---
 
-- hosts: $server
+- hosts: rancher101
   gather_facts: false
   tasks:
     - ping:
